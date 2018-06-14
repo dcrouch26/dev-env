@@ -1,0 +1,417 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/dcrouch/w/repos/product-feeder/src/product_feeder/" . "tasks/")
+ ("/Users/dcrouch/w/repos/product-feeder/src/" . "product_feeder/")
+ ("/Users/dcrouch/w/repos/product-feeder/" . "deployment/")
+ ("/Users/dcrouch/w/repos/ds-pf/" . "deployment/")
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/images/" . "files/")
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/" . "manifests/")
+ ("/Users/dcrouch/notes/" . "music/")
+ ("/Users/dcrouch/w/repos/examine/env-test/src/" . "env_test/")
+ ("/Users/dcrouch/w/repos/examine/env-test/" . "src/")
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/src/" . "twit/")
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/" . "src/")
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/datomic/datomic-pro/" . "0.9.5561.56/")
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/datomic/" . "datomic-pro/")
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/" . "datomic/")
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/" . "com/")
+ ("/Users/dcrouch/.emacs.d/elpa/" . "clj-refactor-20180411.43/")
+ ("/Users/dcrouch/w/repos/ds-web-services/test/ds_web_services/" . "routes/")
+ ("/Users/dcrouch/w/repos/ds-web-services/test/" . "ds_web_services/")
+ ("/Users/dcrouch/w/repos/ds-onyx-batch/src/" . "onyx_batch/")
+ ("/Users/dcrouch/w/repos/ds-onyx-batch/" . "src/")
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/env/" . "dev/")
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/onyx/" . "tasks/")
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/" . "onyx/")
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/" . "src/")
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/src/onyx/" . "plugin/")
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/src/" . "onyx/")
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/" . "src/")
+ ("/Users/dcrouch/w/repos/examine/onyx-benchmark/" . "ansible/")
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/" . "tasks/")
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/" . "product_feeder/")
+ ("/Users/dcrouch/w/repos/ds-product-feeder/" . "src/")
+ ("/Users/dcrouch/Documents/" . "Notes/")
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/test/workshop/" . "jobs/")
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/test/" . "workshop/")
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/" . "resources/")
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/src/" . "workshop/")
+ ("/Users/dcrouch/w/repos/zookeeper/" . "cloudformation-zookeeper/")
+ ("/Users/dcrouch/w/repos/bencher/src/" . "bencher/")
+ ("/Users/dcrouch/w/repos/bencher/" . "src/")
+ ("/Users/dcrouch/Library/Application Support/Blizzard/" . "StarCraft II/")
+ ("/Users/dcrouch/Library/Application Support/" . "Blizzard/")
+ ("/Users/dcrouch/Library/" . "Keyboard Layouts/")
+ ("/" . "Users/")
+ ("/Users/dcrouch/garlicoin/" . "cpuminer-multi/")
+ ("/Users/dcrouch/Downloads/WoW-1.12.1-enUS-Mac/" . "WTF/")
+ ("/Users/dcrouch/Downloads/" . "WoW-1.12.1-enUS-Mac/")
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/" . "processes/")
+ ("/Users/dcrouch/w/repos/examine/filters/src/" . "filters/")
+ ("/Users/dcrouch/w/repos/examine/filters/" . "src/")
+ ("/Users/dcrouch/w/repos/examine/" . "kubernetes-zookeeper-exhibitor/")
+ ("/Users/dcrouch/w/repos/examine/onyx-starter/src/onyx_starter/" . "lifecycles/")
+ ("/Users/dcrouch/w/repos/examine/onyx-starter/src/" . "onyx_starter/")
+ ("/Users/dcrouch/w/repos/examine/onyx-starter/" . "src/")
+ ("/Users/dcrouch/w/repos/ds-replicator/src/" . "replicator/")
+ ("/Users/dcrouch/w/repos/ds-replicator/" . "src/")
+ ("/Users/dcrouch/w/cb/recs-web-service-utils/test/" . "web_service_utils/")
+ ("/Users/dcrouch/w/cb/recs-web-service-utils/src/" . "web_service_utils/")
+ ("/Users/dcrouch/w/cb/recs-web-service-utils/" . "test/")
+ ("/Users/dcrouch/w/cb/visitor-recs/src/visitor_recs/" . "routes/")
+ ("/Users/dcrouch/w/cb/visitor-recs/src/" . "visitor_recs/")
+ ("/Users/dcrouch/w/cb/visitor-recs/" . "src/")
+ ("/Users/dcrouch/w/cb/" . "visitor-recs/")
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/test/" . "action_ingestor/")
+ ("/Users/dcrouch/w/repos/ds-web-services/src/ds_web_services/" . "routes/")
+ ("/Users/dcrouch/w/repos/ds-web-services/src/" . "ds_web_services/")
+ ("/Users/dcrouch/w/repos/ds-web-services/" . "code_deploy/")
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/" . "action_ingestor/")
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/" . "src/")
+ ("/Users/dcrouch/w/repos/ds-infrastructure/datomic/" . "config/")
+ ("/Users/dcrouch/w/repos/ds-infrastructure/" . "zookeeper/")
+ ("/Users/dcrouch/w/repos/" . "product-feeder/")
+ ("/Users/dcrouch/w/" . "repos/")
+ ("/Users/dcrouch/.emacs.d/" . "customizations/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/src/ds_web_services/" . "routes/")
+ ("/Users/dcrouch/Work/cb/visitor-recs/src/visitor_recs/" . "routes/")
+ ("/Users/dcrouch/Work/cb/visitor-recs/src/" . "visitor_recs/")
+ ("/Users/dcrouch/Work/cb/visitor-recs/" . "src/")
+ ("/Users/dcrouch/Work/cb/" . "visitor-recs/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/target/classes/META-INF/maven/ds-web-services/" . "ds-web-services/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/target/classes/META-INF/maven/" . "ds-web-services/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/target/classes/META-INF/" . "maven/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/target/classes/" . "META-INF/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/target/" . "classes/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/src/" . "ds_web_services/")
+ ("/Users/dcrouch/Work/repos/ds-web-services/" . "src/")
+ ("/Users/dcrouch/Work/repos/examine/ds-infrastructure/" . "scripts/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/src/clj/ds_dashboard/" . "routes/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/resources/" . "docs/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/src/clj/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/src/cljs/ds_dashboard/" . "pages/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/src/cljs/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/src/" . "clj/")
+ ("/Users/dcrouch/Work/repos/examine/ds-dashboard/" . "src/")
+ ("/Users/dcrouch/Work/repos/examine/ds-search-action-ingestor/src/" . "sqs_pg/")
+ ("/Users/dcrouch/Work/repos/examine/ds-search-action-ingestor/" . "src/")
+ ("/Users/dcrouch/Work/repos/examine/" . "ds-search-action-ingestor/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/cljs/ds_dashboard/" . "pages/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/resources/" . "sql/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/src/cljs/" . "ds_search_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/src/clj/ds_search_dashboard/" . "db/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/src/cljc/" . "ds_search_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/cljc/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/rid3/dev-resources/" . "public/")
+ ("/Users/dcrouch/Work/repos/rid3/docs/" . "cph_meetup/")
+ ("/Users/dcrouch/Work/repos/rid3/src/main/" . "rid3/")
+ ("/Users/dcrouch/Work/repos/rid3/src/demo/" . "rid3/")
+ ("/Users/dcrouch/Work/repos/rid3/src/" . "demo/")
+ ("/Users/dcrouch/Work/repos/rid3/" . "src/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/target/cljsbuild/public/js/out/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/resources/public/" . "css/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/target/cljsbuild/public/js/" . "out/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/target/cljsbuild/public/" . "js/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/target/cljsbuild/" . "public/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/target/" . "cljsbuild/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/cljs/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/resources/" . "public/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/env/prod/clj/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/env/prod/" . "clj/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/env/" . "prod/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/clj/ds_dashboard/" . "db/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/clj/" . "ds_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/src/" . "clj/")
+ ("/Users/dcrouch/Work/repos/ds-dashboard/" . "src/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/src/clj/" . "ds_search_dashboard/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/src/" . "clj/")
+ ("/Users/dcrouch/Work/repos/ds-search-dashboard/" . "src/")
+ ("/Users/" . "dcrouch/")
+ ("/Users/dcrouch/Work/repos/ds-infrastructure/datomic/" . "config/")
+ ("/Users/dcrouch/Work/repos/ds-infrastructure/clojure-webapp/" . "config/")
+ ("/Users/dcrouch/Work/repos/ds-infrastructure/" . "clojure-webapp/")
+ ("/Users/dcrouch/Work/repos/datomic-pro-0.9.5561.54/" . "bin/")
+ ("/Users/dcrouch/Work/repos/ds-datomic-infracstructure/" . "config/")
+ ("/Users/dcrouch/Work/repos/ds-search-action-ingestor/src/" . "sqs_pg/")
+ ("/Users/dcrouch/Work/repos/ds-search-action-ingestor/" . "resources/")
+ ("/Users/dcrouch/Work/repos/ds-datomic/src/" . "ds_datomic/")
+ ("/Users/dcrouch/Work/repos/ds-datomic/" . "src/")
+ ("/Users/dcrouch/Work/repos/" . "ds-web-services/")
+ ("/Users/dcrouch/Work/" . "repos/")
+ ("/Users/dcrouch/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/dcrouch/.emacs.d/"
+ "/Users/dcrouch/w/repos/product-feeder/deployment/"
+ "/Users/dcrouch/w/repos/product-feeder/bencher/"
+ "/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/manifests/"
+ "/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/images/files/"
+ "/Users/dcrouch/w/repos/product-feeder/src/product_feeder/tasks/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/tasks/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/resources/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/deployment/"
+ "/Users/dcrouch/.lein/"
+ "/Users/dcrouch/notes/onyx/"
+ "/Users/dcrouch/.emacs.d/customizations/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/elasticsearch/"
+ "/Users/dcrouch/notes/"
+ "/Users/dcrouch/w/repos/ds-infrastructure/zookeeper/"
+ "/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/images/"
+ "/Users/dcrouch/w/repos/examine/o-a/"
+ "/Users/dcrouch/notes/music/"
+ "/Users/dcrouch/.kube/"
+ "/Users/dcrouch/"
+ "/Users/dcrouch/w/repos/ds-web-services/src/ds_web_services/routes/"
+ "/Users/dcrouch/w/repos/ds-web-services/src/ds_web_services/"
+ "/Users/dcrouch/w/repos/ds-web-services/"
+ "/Users/dcrouch/w/repos/ds-web-services/code_deploy/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/job/"
+ "/Users/dcrouch/w/repos/ds-product-feeder/scripts/"
+ "/Users/dcrouch/w/sec/"
+ "/Users/dcrouch/w/"
+ "/Users/dcrouch/Documents/"
+ "/Users/dcrouch/Documents/Notes/"
+ "/Users/dcrouch/Notes/"
+ "/Users/dcrouch/w/repos/examine/env-test/"
+ "/Users/dcrouch/w/repos/examine/env-test/src/env_test/"
+ "/Users/dcrouch/w/repos/examine/onyx-twitter-sample/src/twit/"
+ "/Users/dcrouch/w/repos/examine/onyx-twitter-sample/"
+ "/Users/dcrouch/w/repos/examine/onyx-twitter-sample/kubernetes/"
+ "/Users/dcrouch/w/repos/examine/onyx-twitter-sample/resources/"
+ "/Users/dcrouch/Downloads/"
+ "/Users/dcrouch/.emacs.d/elpa/clj-refactor-20180411.43/"
+ "/Users/dcrouch/w/repos/ds-web-services/test/ds_web_services/"
+ "/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/processes/"
+ "/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/transformation/"
+ "/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/"
+ "/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/aws/"
+ "/Users/dcrouch/w/repos/ds-onyx-batch/src/onyx_batch/"
+ "/Users/dcrouch/w/repos/examine/learn-onyx/resources/"
+ "/Users/dcrouch/w/repos/examine/learn-onyx/"
+ "/Users/dcrouch/w/repos/examine/learn-onyx/env/dev/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "k8s-exhib-dn.yaml"
+ "10-statefulset.yaml"
+ "run.sh"
+ "k8s-product-feeder.yaml"
+ "sql.clj"
+ "job.clj"
+ "core.clj"
+ "config.edn"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/dcrouch/.emacs.d/" (23323 2183 935452 379000) ".recentf~" ".smex-items" "cider-history" "#init.el#" "backups/" "themes/" "elpa/" "network-security.data" ".gitignore" ".recentf" "README.md" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "ido.last~" "customizations/" "eshell/" ".mc-lists.el" "lisp/" "init.el~" "ido.last" "../" "./")
+
+ ("/Users/dcrouch/w/repos/product-feeder/" (23328 13212 387951 62000) "src/" "test-resources/" ".travis.yml" ".lein-git-deps/" "maven_repository/" ".git/" "deployment/" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" "Dockerfile" "CHANGELOG.md" "test/" ".DS_Store" ".lein-env" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/notes/" (23327 57096 34941 607000) "docker-commands" "ideas/" "yolks" "deck-repair" "service-creds" "learnings/" "onyx/" "todo" "music/" "../" "./")
+
+ ("/Users/dcrouch/notes/onyx/" (23327 57388 840032 156000) "debug" "../" "./")
+
+ ("/Users/dcrouch/w/repos/product-feeder/deployment/" (23328 13212 387624 794000) "run_peer.sh" "onyx-dashboard.yaml" "finish_media_driver.sh" "run_media_driver.sh" "k8s-exhib-dn.yaml" "k8s-exhib-mbabineau.yaml" "k8s-zookeeper.yaml" "push.sh" "k8s-product-feeder.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/product-feeder/src/product_feeder/tasks/" (23328 12999 731449 861000) "transformation.clj" "sql.clj" "batch.clj" "calculate_sales.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/product-feeder/src/product_feeder/" (23328 12999 741937 649000) "elasticsearch/" "core.clj" "spandex.clj" "sql_table_settings.clj" "job.clj" "transformations.clj" "tasks/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/product-feeder/src/" (23209 5348 725114 361000) "product_feeder/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/" (23328 12983 691485 741000) "bencher/" "ds-web-services/" "product-feeder/" "ds-dashboard/" "zookeeper/" "ds-onyx-batch/" "examine/" "ds-replicator/" ".DS_Store" "ds-action-ingestor/" "ds-infrastructure/" "temp" "docker-compose.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-pf/deployment/" (23328 10170 306753 73000) "run_peer.sh" "onyx-dashboard.yaml" "finish_media_driver.sh" "run_media_driver.sh" "k8s-exhib-dn.yaml" "k8s-exhib-mbabineau.yaml" "k8s-zookeeper.yaml" "push.sh" "k8s-product-feeder.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-pf/" (23328 10610 203191 356000) "src/" "test-resources/" ".travis.yml" ".lein-git-deps/" "maven_repository/" ".git/" "deployment/" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" "Dockerfile" "CHANGELOG.md" "test/" ".DS_Store" ".lein-env" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/tasks/" (23328 9821 540203 482000) "transformation.clj" "sql.clj" "batch.clj" "calculate_sales.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/resources/" (23328 9821 538806 326000) "log4j.properties" "config.edn" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/deployment/" (23328 10170 306753 73000) "run_peer.sh" "onyx-dashboard.yaml" "finish_media_driver.sh" "run_media_driver.sh" "k8s-exhib-dn.yaml" "k8s-exhib-mbabineau.yaml" "k8s-zookeeper.yaml" "push.sh" "k8s-product-feeder.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/" (23328 9821 538516 265000) "src/" "test-resources/" ".travis.yml" ".lein-git-deps/" "maven_repository/" ".git/" "deployment/" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "resources/" "target/" "Dockerfile" "CHANGELOG.md" "test/" ".DS_Store" ".lein-env" "temp" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/" (23328 9821 539586 344000) "elasticsearch/" "core.clj" "spandex.clj" "sql_table_settings.clj" "job.clj" "transformations.clj" "tasks/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/elasticsearch/" (23322 55780 196068 579000) "../" "./")
+
+ ("/Users/Shared/" (23128 58472 863191 895000) "Battle.net/" "Blizzard/" ".localized" "SC Info/" "adi/" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/customizations/" (23322 61860 230743 285000) "elisp-editing.el" "setup-js.el" "navigation.el" "editing.el" "setup-clojure.el" "misc.el" "ui.el" "../" "./")
+
+ ("/Users/dcrouch/.lein/" (23322 59255 849254 726000) "self-installs/" "profiles.clj" "repl-history" "#project.clj#" "../" "./")
+
+ ("/Users/dcrouch/" (23322 54775 905091 949000) "w/" "garlicoin/" ".viminfo" ".bash_history" ".gitconfig" ".aws/" "Downloads/" ".bash_profile" ".m2/" ".spyder2/" "Documents/" ".terraform.d/" ".datadog-agent/" ".Trash/" "Applications/" "Movies/" ".ssh/" ".dbeaver-drivers/" ".sh_history" ".kube/" "notes/" "Public/" "scratch" ".lein/" ".bash_sessions/" ".cups/" ".emacs.d/" ".oracle_jre_usage/" "Library/" "Desktop/" ".atom/" "Pictures/" ".CFUserTextEncoding" ".DS_Store" ".docker/" "Music/" ".config/" ".eclipse/" ".dbeaver4/" "../" "./")
+
+ ("/Users/dcrouch/w/" (23322 54775 905091 879000) "dcrouch.ovpn" "cb/" "zookeeper-3.4.10/" "onyx-k8s.pem" "ops-management.pem" "onyx-k8s-bastion.pem" ".DS_Store" ".creds" "repos/" "terraform" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/manifests/" (23321 32189 165725 636000) "00-service.yaml" "10-statefulset.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/images/files/" (23314 48799 282270 112000) "web.xml" "run.sh" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-infrastructure/zookeeper/" (23299 8072 10758 206000) "zookeeper.json" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/" (23314 48841 925739 309000) "kubernetes-zookeeper-exhibitor/" "env-test/" "onyx-seq/" "ds-search-action-ingestor/" "onyx-app/" "onyx-benchmark/" "learn-onyx/" "datomic-pro-0.9.5561.54/" "dat-pro.tar.gz" "onyx-twitter-sample/" "onyx-starter/" "onyx-amazon-s3/" "ds-infrastructure/" "filters/" "onyx-template/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/images/" (23314 48799 281973 355000) "files/" "Dockerfile" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/kubernetes-zookeeper-exhibitor/" (23314 48799 282636 608000) ".git/" "manifests/" "README.md" "images/" "LICENSE" "../" "./")
+
+ ("/Users/dcrouch/Music/" (23300 6850 998056 790000) "Partials/" "Wild Child - Rillo Talk (OFFICIAL VIDEO).mp3" "iTunes/" ".localized" ".DS_Store" "The Flaming Lips - Yoshimi Battles The Pink Robots (2002) (Full Album).mp3" "../" "./")
+
+ ("/Users/dcrouch/.kube/" (23313 42441 398258 427000) "http-cache/" "config" "cache/" "config2" "../" "./")
+
+ ("/Users/dcrouch/notes/music/" (23313 27659 659434 336000) "song-ideas" "love-songs" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/" (23310 42131 705967 536000) "jvm.staging.env" "src/" "travis/" ".travis.yml" "maven_repository/" ".git/" ".gitignore" "README.md" "pom.xml" ".nrepl-port" "profiles.clj" "resources/" "target/" "CHANGELOG.md" "appspec.yml" "test/" ".DS_Store" ".lein-env" "project.clj" "code_deploy/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/src/ds_web_services/routes/" (23310 41916 847434 465000) "search.clj" "actions.clj" "autocomplete.clj" "recommendations.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/src/ds_web_services/" (23310 41208 710184 215000) "routes/" "handler.clj" "core.clj" "cf.clj" "common.clj" "datadog.clj" "db.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/src/product_feeder/job/" (23303 65105 713110 460000) "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/code_deploy/" (23172 15851 965911 150000) "application_stop.sh" "application_start.sh" "validate_service.sh" "http_check.yaml" "before_block_traffic.sh" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/target/" (23302 50255 563887 370000) "product-feeder-0.3.0.jar" "stale/" "classes/" "peer.jar" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-product-feeder/scripts/" (23300 9246 807155 261000) "run_peer.sh" "finish_media_driver.sh" "run_media_driver.sh" "push.sh" "../" "./")
+
+ ("/Users/dcrouch/w/sec/" (23300 8606 990940 72000) "../" "./")
+
+ ("/Users/dcrouch/Documents/" (23300 6792 931554 425000) "Wild Child - Rillo Talk (OFFICIAL VIDEO).mp3" "Zoom/" "GA_TR_2017.pdf" "StockOptions.pdf" "Expense Reports/" "F_TR_2015.pdf" "2017 Capitalized Project Costs - Daniel Crouch.numbers" ".localized" "Wild Child - Rillo Talk (Official).mp3" "League of Legends/" ".DS_Store" "temp" "../" "./")
+
+ ("/Users/dcrouch/Documents/Notes/" (23300 6462 42192 206000) "S_T_L" "TODO" "conj" "TODO~" "Classified Notes" "../" "./")
+
+ ("/Users/dcrouch/Notes/" (23300 6067 601170 63000) "zkdebug" "service-creds" "docker-learnings.txt" "scratch" "temp" "../" "./")
+
+ ("/Users/dcrouch/.docker/" (23299 39841 302054 128000) "daemon.json" ".buildNodeID" "config.json" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/env-test/" (23275 10723 134736 587000) "src/" "doc/" ".gitignore" "env-test-0.1.0.jar" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/env-test/src/env_test/" (23275 4911 449608 377000) "core.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/env-test/src/" (23275 4781 47569 470000) "env_test/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/resources/" (22994 42824 0 0) "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/kubernetes/" (23266 5406 650264 786000) "bookkeeper.petset.yaml" "mysql.rc.yaml" "prometheus.deployment.yaml" "prometheus.configmap.yaml" "submit-job.job.yaml" "peer.deployment.yaml" "volumeclaims/" "dashboard.deployment.yaml" "zookeeper.petset.yaml" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/resources/" (23266 5406 651272 84000) "data.txt" "migrators/" "config.edn" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/src/twit/" (23266 5406 653515 438000) "persist/" "jobs/" "talk.clj" "core.clj" "tasks/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/src/" (23266 5406 652331 860000) "twit/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-twitter-sample/" (23266 5406 654253 87000) "src/" "kubernetes/" ".git/" "scripts/" ".gitignore" "README.md" "resources/" "Dockerfile" "test/" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/datomic/datomic-pro/0.9.5561.56/" (23035 27947 0 0) "datomic-pro-0.9.5561.56.jar.sha1" "datomic-pro-0.9.5561.56.jar" "datomic-pro-0.9.5561.56.pom.sha1" "datomic-pro-0.9.5561.56.pom" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/datomic/datomic-pro/" (23035 27947 0 0) "0.9.5561.56/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/datomic/" (23035 27947 0 0) "datomic-pro/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/com/" (23035 27947 0 0) "datomic/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/maven_repository/" (23035 27947 0 0) "com/" "../" "./")
+
+ ("/Users/dcrouch/Downloads/" (23264 35630 391491 310000) "jvm.staging.env" "AddOns.zip" "ATC_locations.csv" "i-04121d1c14bcd7508-2017-10-10.log" "i-025c7fa41c622b1b8-console.log" "search-impression-stream-1-2017-12-07-00-02-14-91b0bb84-0be2-442a-9dc8-58541e6c96c8.gz" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(1).gz" "DisplayLink Installer 85514 2.dmg" "action-stream-staging-3-2017-12-06-21-52-59-c855e027-cf23-449f-ba79-ee6900224aa6(1)" "search-impression-stream-1-2017-12-07-00-02-14-91b0bb84-0be2-442a-9dc8-58541e6c96c8" "Cover_letter.docx" "Ajinkya_Resume(1).pdf" "Resume.3.26.18.pdf" "FTF_2017-05-18_1495145911631.pdf" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(2).gz" "action-stream-3-2017-11-13-00-02-15-5dc15855-9c88-44c5-b4c4-e96219aef687.gz" "product-click-stream-1-2017-12-06-22-58-40-1825b2a7-9380-43d2-ba0f-ec53d7263492" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(3).gz" "action-stream-staging-3-2017-12-06-22-33-55-018652d9-9afa-426c-8c19-7f1a0a35a421" "bitcoin-0.15.1-osx.dmg" "search-impression-stream-1-2017-12-08-15-30-44-b23af47d-bb55-4309-b373-df1777ec1c49" "pattern.grid" "Major Lazer - Get Free feat. Amber (of Dirty Projectors) OFFICIAL LYRIC VIDEO + HQ AUDIO.mp3" "openvpn-connect-2.1.3.120.dmg" "Tucker_Scott_CL_TCGplayer(1).pdf" "29186449_10155932328725901_4043295217615372288_o.jpg" "Blitz Chess Tournament 13 (30).mp4" "action-stream-3-2017-12-08-08-24-55-932f6010-5b9f-40a1-a777-0b1f30e0d93b.gz" "The Bright Light Social Hour - Dreamlove (Official Audio).mp3" "dbeaver-ce-4.3.4-macos.dmg" "29496579_1837871146225412_871700643370368009_n.jpg" "Owner_1099_2016.pdf" "i-098db3fd0913cdb35-console.log" "30069958_10155992609190901_316785455_o.jpg" "onyx-k8s-bastion.zip" "install_flash_player_osx.dmg" "NYS_wage_theft_2018_DaivdB.pdf" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(1) 2" "3icostinleau-160614190230.pdf" "DisplayLink Installer 85514.dmg" "add-to-cart-click-stream-staging-2-2017-12-06-21-32-16-0fc80b2b-77b1-471d-86a0-1ef07e6d86d2" "product-click-stream-1-2017-12-07-00-30-25-ceecde3e-bca1-422a-8600-ba94f3673413.gz" "NYS_wage_theft_2018_DanielCrouch.pdf" "ActionFirehose-1-2017-06-30-01-09-46-34a4f621-40b5-4b7f-990d-5ec8d35b0cdc.gz.cpgz" "Glossolalia - Oct 5-20180104T221417Z-001.zip" "jvm.production.env" "action-stream-3-2017-12-08-15-32-59-5ca1d55b-6880-45a2-a531-89f0fd907852" "Blue Ridge Mountains- Fleet Foxes.mp3" "action-stream-staging-3-2017-12-06-21-52-59-c855e027-cf23-449f-ba79-ee6900224aa6.gz" "Users/" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8" "DisplayLink USB Graphics Software for Mac OS X 3.1.zip" "Ajinkya_Resume.pdf" "Tucker_Scott(2).pdf" "112-2206419-1319460-1.pdf" "terraform 2" "WoW-1.12.1-enUS-Mac.zip" "add-to-cart-click-stream-staging-2-2017-12-06-21-32-16-0fc80b2b-77b1-471d-86a0-1ef07e6d86d2.gz" "Docker.dmg" "action-stream-3-2017-12-08-08-24-55-932f6010-5b9f-40a1-a777-0b1f30e0d93b" "12891077_10153875670910901_1863173655093049125_o.jpg" "112-2206419-1319460-2.pdf" "Install Disk Creator.app/" "SensibleSideButtons-1.0.dmg" "Jonah_Jones.pdf" "RealId_Card.pdf" "xah-fly-keys-master.zip" "action-stream-3-2017-11-13-00-02-15-5dc15855-9c88-44c5-b4c4-e96219aef687.gz.cpgz" "i-04121d1c14bcd7508-2017-10-10 (1).log.crdownload" "action-stream-staging-3-2017-12-06-21-22-01-136d3e70-331d-4b2e-8d94-21c87d93dab7 2" "action-stream-staging-3-2017-12-06-21-22-01-136d3e70-331d-4b2e-8d94-21c87d93dab7.gz" "League of Legends installer NA.dmg" "action-stream-3-2017-11-13-00-02-15-5dc15855-9c88-44c5-b4c4-e96219aef687.gz 2.cpgz" "28309865_10155870232265901_14774986_o.jpg" "agreement_ad5ce8c136bd60877c4989f411da308e.pdf" "Battle.net-Setup.dmg" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8.gz" "Tucker_Scott(1).pdf" "ActionFirehose-1-2017-06-30-01-09-46-34a4f621-40b5-4b7f-990d-5ec8d35b0cdc.gz" "jvm.staging(1).env" "product-click-stream-1-2017-12-06-22-58-40-1825b2a7-9380-43d2-ba0f-ec53d7263492.gz" "SOU1EATER.zip" "Jan 01, 2015 to Dec 01, 2015.pdf" "Beach House - Bloom [FULL ALBUM STREAM].mp3" "World of Warcraft/" "action-stream-3-2017-12-08-15-32-59-5ca1d55b-6880-45a2-a531-89f0fd907852.gz" "action-stream-staging-3-2017-12-06-21-52-59-c855e027-cf23-449f-ba79-ee6900224aa6" "i-0de6a292180de9c20-console.log" "print1522545324.pdf" "onyx-k8s-bastion.pem" "client.ovpn" "DisplayLink USB Graphics Software for OS X and macOS 4.0.0.zip" "recs-web-service-utils.tar.gz" "_DisplayLink USB Graphics Software for OS X and macOS 4.0.0.zip" "xah-fly-keys-master/" "DisplayLink Installer 82262.dmg" "2017 2018 Salary Benefits Summary.xlsx" "ido-completing-read+-20180222.1504.el" ".localized" "Firefox 57.0.dmg" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(1)" "action-stream-staging-3-2017-12-06-22-33-55-018652d9-9afa-426c-8c19-7f1a0a35a421.gz" "search-impression-stream-staging-2-2017-12-06-22-28-20-5cd93540-17d6-4d50-851e-f93ca5d35f79" "search-impression-stream-1-2017-12-08-15-30-44-b23af47d-bb55-4309-b373-df1777ec1c49.gz" "action-stream-staging-3-2017-12-06-21-41-04-fb026fca-febb-4308-8667-fd41a5a27b95 2" "Tucker_Scott_CL_TCGplayer(2).pdf" "Tucker_Scott.pdf" "product-click-stream-1-2017-12-07-00-30-25-ceecde3e-bca1-422a-8600-ba94f3673413" "action-stream-staging-3-2017-12-06-22-33-55-018652d9-9afa-426c-8c19-7f1a0a35a421 2" "26171787_10159825037025654_8650844204648630803_o.jpg" ".DS_Store" "57ba19be-df8c-4b33-8b0d-bcfa01ed8abc.csv" "terraform_0.11.3_darwin_amd64.zip" "112-2206419-1319460.pdf" "search-impression-stream-staging-2-2017-12-06-21-31-36-1c347ea3-ede7-4104-bd4a-fc6a1f7fbbd8(2)" "DatomicAndHow2017.pdf" "Ajinkya_Resume(2).pdf" "action-stream-staging-3-2017-12-06-21-52-59-c855e027-cf23-449f-ba79-ee6900224aa6(1).gz" "xah-fly-keys-master 2/" "InstallDiskCreator.zip" "classpath" "Resume_Data_hyb_anil.pdf" "search-impression-stream-staging-2-2017-12-06-22-28-20-5cd93540-17d6-4d50-851e-f93ca5d35f79.gz" "action-stream-staging-3-2017-12-06-21-22-01-136d3e70-331d-4b2e-8d94-21c87d93dab7" "STF_2017-05-18_1495146027450.pdf" "action-stream-staging-3-2017-12-06-21-41-04-fb026fca-febb-4308-8667-fd41a5a27b95" "WoW Classic.zip" "MSA-1f_20180216.pdf" "MaciX500ManagerV63L50WW1.dmg" "Kings Of Leon - Over (Lyrics).mp3" "094048970008.pdf" "action-stream-staging-3-2017-12-06-21-41-04-fb026fca-febb-4308-8667-fd41a5a27b95.gz" "filter-stream-1-2017-11-29-20-03-41-162b94b9-7ca8-408c-abe4-a4385715f466.gz" "Tucker_Scott_CL_TCGplayer.pdf" "DatomicCloudOct2017.pdf" "IT Sesh.pdf" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/elpa/clj-refactor-20180411.43/" (23256 45328 275165 852000) "clj-refactor-autoloads.el" "clj-refactor-compat.elc" "clj-refactor-pkg.el" "clj-refactor-compat.el" "clj-refactor.elc" "CHANGELOG.md" "clj-refactor.el" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/elpa/" (23256 44558 711476 834000) "ghub-20180417.1527/" "ido-at-point-readme.txt" "paredit-20171126.1805/" "clj-refactor-readme.txt" "cider-readme.txt" "async-20180408.844/" "smex-20151212.1409/" "clojure-mode-extra-font-locking-20180114.911/" "cl-lib-0.6.1/" "pkg-info-20150517.443/" "git-commit-20180411.1649/" "s-20180406.108/" "spinner-1.7.3/" "inflections-20170913.216/" "with-editor-20180414.757/" "queue-0.2/" "ido-completing-read+-20180222.1504/" "dash-20180413.30/" "clj-refactor-20180411.43/" "magit-popup-20180329.1302/" "magit-20180418.624/" "tagedit-20161121.55/" "clojure-mode-20180329.2109/" "archives/" "yasnippet-20180319.607/" "memoize-20170720.1802/" "edn-20160215.419/" "projectile-20180324.2226/" "epl-20180205.1249/" "0blayout-readme.txt" "exec-path-from-shell-20180323.1904/" "cider-20180417.2312/" "let-alist-1.0.5/" "hydra-20180226.1116/" "rainbow-delimiters-20170929.432/" "peg-20150707.2341/" "seq-2.20/" "multiple-cursors-20180406.1350/" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/lisp/" (23252 61442 578955 238000) "xah-fly-keys.el" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/auto-save-list/" (23256 38653 770855 445000) ".saves-3683-datum~" ".saves-541-datum~" ".saves-471-datum~" ".saves-794-datum~" ".saves-18255-datum~" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/elpa/ido-ubiquitous-2.10/" (23256 36883 253728 124000) "ido-ubiquitous.elc" "ido-ubiquitous.el" "ido-ubiquitous-pkg.el" "ido-ubiquitous-autoloads.el" "../" "./")
+
+ ("/Users/" (23056 22281 868447 217000) "dcrouch/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/elpa/paredit-20170405.1149/" (23256 30717 530479 434000) "paredit-autoloads.el" "paredit.el" "paredit-pkg.el" "paredit.elc" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/test/ds_web_services/routes/" (23252 45455 944422 292000) "recommendations_test.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/test/ds_web_services/" (23252 45455 944230 887000) "cf_test.clj" "core_test.clj" "routes/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/test/" (22998 17572 0 0) "ds_web_services/" "resources/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/transformation/" (23253 60128 263675 475000) "condition_util.clj" "parse.clj" "pre_write.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/processes/" (23253 60128 263130 966000) "queue_interop.clj" "printer.clj" "write.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/" (23254 729 757379 772000) "src/" "travis/" ".travis.yml" "maven_repository/" ".git/" ".gitignore" "README.md" "cd_out/" "resources/" "target/" "CHANGELOG.md" "appspec.yml" "test/" ".lein-env" "project.clj" "code_deploy/" "../" "./")
+
+ ("/Users/dcrouch/.eclipse/" (23163 10536 823332 861000) "org.eclipse.equinox.security/" "../" "./")
+
+ ("/Applications/" (23253 14846 948825 288000) "System Preferences.app/" "Calendar.app/" "Slack.app/" "Automator.app/" "PuyoVS/" "App Store.app/" "Reminders.app/" "Postman.app/" "Launchpad.app/" "Emacs.app/" "Firefox.app/" "iTunes.app/" "Skype.app/" "iTerm.app/" "Calculator.app/" "Atom.app/" "Messages.app/" "Photos.app/" "Stickies.app/" "League of Legends.app/" "Tunnelblick.app/" "GarageBand.app/" "Pages.app/" "Mission Control.app/" "Maps.app/" "Keynote.app/" "zoom.us.app/" "FaceTime.app/" "Font Book.app/" "Utilities/" "Time Machine.app/" "StarCraft II/" "Contacts.app/" "Dictionary.app/" "Safari.app/" "Mail.app/" "Docker.app/" "Python 2.7/" "DisplayLink/" "Bitcoin-Qt.app/" "TextEdit.app/" "DBeaver.app/" "iMovie.app/" "WoW-1.12.1-enUS-Mac/" "Dashboard.app/" "Preview.app/" ".localized" "Numbers.app/" "Google Chrome.app/" "iBooks.app/" "Image Capture.app/" "Notes.app/" "Albion-Online.app/" "Steam.app/" ".DS_Store" "Battle.net.app/" "Photo Booth.app/" "Chess.app/" "QuickTime Player.app/" "Siri.app/" "DVD Player.app/" "../" "./")
+
+ ("/Applications/Emacs.app/" (22778 10794 0 0) "Contents/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/" (22778 11411 0 0) "PkgInfo" "Info.plist" "Resources/" "MacOS/" "_CodeSignature/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/" (22778 10859 0 0) "Emacs.icns" "Credits.html" "site-lisp/" "info/" "var/" "etc/" "document.icns" "lisp/" "English.lproj/" "man/" "../" "./")
+
+ ("/Applications/Emacs.app/Contents/Resources/lisp/" (22778 10858 0 0) "pcmpl-x.el.gz" "vcursor.el.gz" "bs.el.gz" "hexl.el.gz" "soundex.elc" "wdired.el.gz" "rect.el.gz" "help-mode.elc" "tooltip.el.gz" "shadowfile.el.gz" "bs.elc" "emacs-lock.el.gz" "array.el.gz" "image-file.el.gz" "autoinsert.elc" "iimage.el.gz" "pcomplete.el.gz" "wid-edit.el.gz" "profiler.elc" "case-table.elc" "novice.elc" "emacs-lisp/" "epa-mail.el.gz" "help-fns.el.gz" "misc.elc" "international/" "makesum.elc" "mpc.elc" "minibuf-eldef.el.gz" "hfy-cmap.elc" "userlock.el.gz" "scroll-bar.elc" "savehist.el.gz" "proced.elc" "w32-vars.elc" "progmodes/" "button.elc" "tabify.elc" "autoinsert.el.gz" "dirtrack.elc" "reposition.el.gz" "edmacro.elc" "ps-print.elc" "align.el.gz" "proced.el.gz" "mb-depth.el.gz" "tutorial.el.gz" "locate.el.gz" "forms.elc" "format.elc" "scroll-bar.el.gz" "elec-pair.el.gz" "mwheel.el.gz" "tabify.el.gz" "font-core.elc" "epa-mail.elc" "md4.el.gz" "composite.el.gz" "image.elc" "icomplete.elc" "thingatpt.elc" "ehelp.el.gz" "char-fold.elc" "dynamic-setting.elc" "locate.elc" "sb-image.elc" "info-xref.el.gz" "font-core.el.gz" "ffap.elc" "format.el.gz" "paren.elc" "edmacro.el.gz" "tmm.el.gz" "vt-control.elc" "ezimage.elc" "kermit.el.gz" "obarray.el.gz" "ldefs-boot.el" "jit-lock.elc" "play/" "frame.elc" "cus-face.elc" "format-spec.el.gz" "uniquify.el.gz" "mouse-copy.elc" "select.elc" "cmuscheme.el.gz" "indent.el.gz" "msb.el.gz" "view.el.gz" "whitespace.elc" "filesets.elc" "ps-def.elc" "foldout.el.gz" "woman.elc" "find-dired.el.gz" "skeleton.elc" "sb-image.el.gz" "htmlfontify.el.gz" "hippie-exp.elc" "facemenu.el.gz" "pcmpl-rpm.elc" "widget.elc" "iimage.elc" "calculator.el.gz" "expand.el.gz" "loadhist.elc" "jka-cmpr-hook.elc" "minibuffer.elc" "find-cmd.el.gz" "informat.elc" "loadhist.el.gz" "erc/" "md4.elc" "midnight.el.gz" "ps-bdf.elc" "w32-fns.elc" "pcmpl-unix.elc" "cdl.elc" "completion.elc" "dom.elc" "hex-util.el.gz" "talk.el.gz" "scroll-lock.el.gz" "ielm.elc" "recentf.el.gz" "info-look.elc" "dos-vars.elc" "lpr.el.gz" "isearch.el.gz" "filenotify.el.gz" "forms.el.gz" "reveal.elc" "help-fns.elc" "ibuffer.elc" "dired.el.gz" "subr.el.gz" "files.el.gz" "pcmpl-gnu.elc" "misearch.elc" "chistory.elc" "env.el.gz" "hi-lock.el.gz" "help-at-pt.el.gz" "custom.el.gz" "view.elc" "sort.elc" "autoarg.elc" "ses.elc" "ps-def.el.gz" "comint.el.gz" "hi-lock.elc" "find-dired.elc" "x-dnd.elc" "image.el.gz" "startup.el.gz" "notifications.elc" "minibuffer.el.gz" "w32-fns.el.gz" "htmlfontify.elc" "thumbs.el.gz" "whitespace.el.gz" "t-mouse.elc" "epg-config.el.gz" "hilit-chg.elc" "misc.el.gz" "time-stamp.elc" "color.elc" "recentf.elc" "linum.el.gz" "startup.elc" "face-remap.elc" "cus-load.el" "xt-mouse.elc" "elide-head.elc" "outline.elc" "newcomment.el.gz" "xt-mouse.el.gz" "ruler-mode.el.gz" "follow.el.gz" "userlock.elc" "allout.elc" "descr-text.elc" "mwheel.elc" "timezone.elc" "json.el.gz" "cus-dep.el.gz" "pcomplete.elc" "informat.el.gz" "ielm.el.gz" "wid-browse.el.gz" "apropos.el.gz" "timezone.el.gz" "files-x.el.gz" "server.el.gz" "faces.el.gz" "epa-file.el.gz" "ehelp.elc" "makesum.el.gz" "ibuf-ext.elc" "mouse.elc" "time.el.gz" "help-macro.elc" "man.elc" "dabbrev.elc" "mouse.el.gz" "rot13.elc" "saveplace.elc" "vc/" "autorevert.elc" "allout-widgets.el.gz" "COPYING" "info.el.gz" "generic-x.elc" "foldout.elc" "pcmpl-gnu.el.gz" "replace.elc" "dframe.elc" "apropos.elc" "bookmark.elc" "tool-bar.elc" "delim-col.el.gz" "help.elc" "help-macro.el.gz" "version.elc" "isearchb.el.gz" "ps-bdf.el.gz" "paren.el.gz" "cus-face.el.gz" "bindings.el.gz" "mouse-copy.el.gz" "epa-hook.elc" "window.elc" "pcmpl-rpm.el.gz" "menu-bar.el.gz" "dos-fns.elc" "ffap.el.gz" "thingatpt.el.gz" "epa-hook.el.gz" "cedet/" "tmm.elc" "epa-dired.elc" "face-remap.el.gz" "help.el.gz" "ps-mule.elc" "filenotify.elc" "pcmpl-cvs.elc" "version.el.gz" "dired-aux.el.gz" "abbrev.elc" "delsel.el.gz" "cus-theme.elc" "calc/" "calculator.elc" "disp-table.el.gz" "ls-lisp.elc" "hl-line.elc" "register.el.gz" "lpr.elc" "epa-file.elc" "ps-print.el.gz" "simple.elc" "ibuf-ext.el.gz" "faces.elc" "generic-x.el.gz" "delim-col.elc" "man.el.gz" "reveal.el.gz" "cus-dep.elc" "url/" "README" "echistory.el.gz" "midnight.elc" "term.el.gz" "tempo.el.gz" "dired-aux.elc" "leim/" "ibuf-macs.elc" "frameset.elc" "abbrev.el.gz" "strokes.elc" "repeat.elc" "help-mode.el.gz" "dirtrack.el.gz" "mh-e/" "facemenu.elc" "cus-edit.elc" "echistory.elc" "w32-vars.el.gz" "xml.elc" "strokes.el.gz" "find-cmd.elc" "pcmpl-linux.elc" "speedbar.el.gz" "kmacro.elc" "hfy-cmap.el.gz" "pcmpl-cvs.el.gz" "language/" "misearch.el.gz" "linum.elc" "filecache.el.gz" "find-lisp.elc" "simple.el.gz" "master.el.gz" "tutorial.elc" "shell.el.gz" "rect.elc" "dynamic-setting.el.gz" "xwidget.elc" "battery.el.gz" "t-mouse.el.gz" "menu-bar.elc" "char-fold.el.gz" "pcmpl-unix.el.gz" "x-dnd.el.gz" "ebuff-menu.el.gz" "vt100-led.elc" "isearch.elc" "mouse-drag.elc" "scroll-lock.elc" "find-file.elc" "vcursor.elc" "hexl.elc" "hilit-chg.el.gz" "ls-lisp.el.gz" "finder-inf.el" "subr.elc" "xml.el.gz" "env.elc" "fringe.elc" "kermit.elc" "mouse-drag.el.gz" "obarray.elc" "emacs-lock.elc" "register.elc" "ps-samp.el.gz" "epg-config.elc" "files.elc" "hl-line.el.gz" "tar-mode.elc" "flow-ctrl.el.gz" "password-cache.el.gz" "buff-menu.el.gz" "gs.elc" "disp-table.elc" "pcmpl-linux.el.gz" "dired.elc" "scroll-all.elc" "avoid.elc" "tree-widget.el.gz" "term/" "case-table.el.gz" "uniquify.elc" "repeat.el.gz" "notifications.el.gz" "doc-view.el.gz" "windmove.el.gz" "skeleton.el.gz" "info-xref.elc" "delsel.elc" "ansi-color.elc" "newcomment.elc" "pcmpl-x.elc" "isearchb.elc" "type-break.elc" "image-dired.elc" "select.el.gz" "profiler.el.gz" "icomplete.el.gz" "emulation/" "term.elc" "macros.elc" "windmove.elc" "jit-lock.el.gz" "reposition.elc" "printing.elc" "bookmark.el.gz" "hex-util.elc" "composite.elc" "frame.el.gz" "tooltip.elc" "kmacro.el.gz" "elide-head.el.gz" "mail/" "org/" "image-file.elc" "tempo.elc" "arc-mode.elc" "avoid.el.gz" "ps-samp.elc" "align.elc" "imenu.elc" "window.el.gz" "wdired.elc" "ses.el.gz" "scroll-all.el.gz" "sort.el.gz" "master.elc" "desktop.el.gz" "array.elc" "electric.elc" "format-spec.elc" "cus-edit.el.gz" "custom.elc" "autorevert.el.gz" "password-cache.elc" "textmodes/" "electric.el.gz" "flow-ctrl.elc" "speedbar.elc" "vt-control.el.gz" "loaddefs.el" "autoarg.el.gz" "allout.el.gz" "frameset.el.gz" "nxml/" "allout-widgets.elc" "dnd.elc" "buff-menu.elc" "button.el.gz" "wid-edit.elc" "winner.el.gz" "server.elc" "rot13.el.gz" "dired-x.el.gz" "outline.el.gz" "epg.el.gz" "cus-start.el.gz" "printing.el.gz" "macros.el.gz" "font-lock.elc" "arc-mode.el.gz" "desktop.elc" "color.el.gz" "expand.elc" "time.elc" "subdirs.el" "dos-w32.el.gz" "double.elc" "obsolete/" "cus-start.elc" "ezimage.el.gz" "shell.elc" "jka-compr.el.gz" "epa.elc" "descr-text.el.gz" "ps-mule.el.gz" "elec-pair.elc" "follow.elc" "mpc.el.gz" "image-mode.el.gz" "image-mode.elc" "find-file.el.gz" "bindings.elc" "thumbs.elc" "dos-fns.el.gz" "eshell/" "finder.el.gz" "info-look.el.gz" "calendar/" "talk.elc" "ibuffer.el.gz" "net/" "comint.elc" "vt100-led.el.gz" "tree-widget.elc" "json.elc" "tar-mode.el.gz" "jka-cmpr-hook.el.gz" "winner.elc" "saveplace.el.gz" "tool-bar.el.gz" "filesets.el.gz" "time-stamp.el.gz" "gnus/" "mb-depth.elc" "cdl.el.gz" "minibuf-eldef.elc" "dnd.el.gz" "jka-compr.elc" "files-x.elc" "dos-vars.el.gz" "rfn-eshadow.el.gz" "fringe.el.gz" "epa-dired.el.gz" "dired-x.elc" "ibuf-macs.el.gz" "info.elc" "type-break.el.gz" "replace.el.gz" "ido.el.gz" "shadowfile.elc" "soundex.el.gz" "filecache.elc" "dframe.el.gz" "widget.el.gz" "savehist.elc" "chistory.el.gz" "epa.el.gz" "dom.el.gz" "find-lisp.el.gz" "xwidget.el.gz" "wid-browse.elc" "novice.el.gz" "double.el.gz" "hippie-exp.el.gz" "epg.elc" "ido.elc" "loadup.el" "cus-theme.el.gz" "woman.el.gz" "indent.elc" "msb.elc" "dabbrev.el.gz" "gs.el.gz" "ruler-mode.elc" "finder.elc" "completion.el.gz" "help-at-pt.elc" "ansi-color.el.gz" "doc-view.elc" "ebuff-menu.elc" "cmuscheme.elc" "font-lock.el.gz" "rfn-eshadow.elc" "imenu.el.gz" "dos-w32.elc" "image-dired.el.gz" "battery.elc" "../" "./")
+
+ ("/Users/dcrouch/.emacs.d/elpa/cider-20170729.133/" (23254 1019 488552 681000) "cider-mode.elc" "cider-popup.el" "cider-browse-ns.el" "cider-scratch.elc" "cider-doc.el" "cider-apropos.el" "cider-grimoire.elc" "nrepl-client.elc" "cider-popup.elc" "cider-pkg.el" "cider-browse-ns.elc" "cider-browse-spec.elc" "cider-common.elc" "cider-compat.elc" "cider-stacktrace.el" "cider-interaction.el" "cider-selector.el" "cider-common.el" "cider-inspector.elc" "cider-mode.el" "cider-eldoc.el" "cider-client.elc" "nrepl-client.el" "cider-resolve.elc" "cider-selector.elc" "nrepl-dict.el" "cider-stacktrace.elc" "cider-inspector.el" "cider.elc" "cider-browse-spec.el" "cider-doc.elc" "cider-test.el" "cider-overlays.elc" "cider-overlays.el" "cider-repl.el" "cider-test.elc" "cider-autoloads.el" "cider-util.el" "cider-client.el" "cider-classpath.el" "cider-scratch.el" "cider-interaction.elc" "cider-debug.el" "cider-classpath.elc" "cider-repl-history.el" "cider-debug.elc" "cider-macroexpansion.elc" "cider-compat.el" "cider-repl-history.elc" "cider-apropos.elc" "cider-grimoire.el" "cider-util.elc" "cider-repl.elc" "cider-resolve.el" "nrepl-dict.elc" "cider-macroexpansion.el" "cider.el" "cider-eldoc.elc" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/aws/" (23253 60128 260875 514000) "dynamo.clj" "firehose.clj" "sqs.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/action_ingestor/" (23253 60128 262457 706000) "aws/" "datomic/" "elasticsearch.clj" "core.clj" "transformation/" "processes/" "utils.clj" "datadog.clj" "db.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-action-ingestor/src/" (23035 25067 0 0) "action_ingestor/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-web-services/src/" (22994 48910 0 0) "ds_web_services/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-onyx-batch/src/onyx_batch/" (23246 8781 471500 247000) "core.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-onyx-batch/src/" (23246 8065 543952 963000) "onyx_batch/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/ds-onyx-batch/" (23246 8281 329887 996000) "src/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/resources/" (23211 53740 416717 940000) "env-config.edn" "dev-peer-config.edn" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/env/dev/" (23211 53740 415996 598000) "user.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/env/" (23211 53740 415941 947000) "dev/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/learn-onyx/" (23238 11078 398112 232000) "src/" "onyx.log" ".git/" "scripts/" "circle.yml" ".gitignore" "env/" "README.md" "resources/" "target/" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/onyx-batch/" (23246 8065 545848 641000) "src/" "doc/" ".gitignore" "README.md" "resources/" ".hgignore" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/" (23243 43442 412408 483000) "src/" ".git/" "CHANGES.MD" "build.gradle" "scripts/" "circle.yml" ".gitignore" "README.md" ".nrepl-port" "resources/" "target/" "test/" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/onyx/tasks/" (23243 50403 230884 175000) "seq.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/onyx/seq/" (23243 50403 230679 48000) "information_model.cljc" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/onyx/plugin/" (23243 50403 230347 216000) "seq.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/onyx/" (23243 50403 230831 801000) "plugin/" "seq/" "tasks/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/src/" (23243 50403 230208 878000) "onyx/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-seq/" (23243 50403 231516 187000) "src/" "test-resources/" ".git/" "changes.md" "scripts/" "circle.yml" ".gitignore" "README.md" "test/" "project.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/src/onyx/plugin/" (23238 36604 152350 740000) "s3_utils.clj" "s3_input.clj" "s3_output.clj" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/src/onyx/" (23238 36604 152937 246000) "plugin/" "tasks/" "s3/" "../" "./")
+
+ ("/Users/dcrouch/w/repos/examine/onyx-amazon-s3/src/" (23238 36604 151549 353000) "onyx/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
