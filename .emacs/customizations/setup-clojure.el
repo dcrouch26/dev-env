@@ -5,6 +5,9 @@
 (require 'highlight-symbol)
 (add-hook 'clojure-mode-hook 'enable-paredit-mode)
 (add-hook 'clojure-mode-hook 'highlight-symbol-mode)
+(add-hook 'clojure-mode-hook 'company-mode)
+(setq company-dabbrev-downcase 0)
+(setq company-idle-delay 0)
 
 ;; This is useful for working with camel-case tokens, like names of
 ;; Java classes (e.g. JavaClassName)
@@ -35,6 +38,10 @@
           (lambda () (local-set-key (kbd "<f5>") #'cider-jack-in)))
 (add-hook 'clojure-mode-hook
           (lambda () (local-set-key (kbd "<f6>") #'cider-jack-in-with-profile)))
+(add-hook 'clojure-mode-hook
+          (lambda () (local-set-key (kbd "<f12>") #'cider-find-var)))
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
 
 ;; syntax hilighting for midje
 (add-hook 'clojure-mode-hook
@@ -52,7 +59,19 @@
 ;;;;
 ;; Cider
 ;;;;
-
+(define-clojure-indent
+  (defroutes 'defun)
+  (GET 2)
+  (POST 2)
+  (PUT 2)
+  (DELETE 2)
+  (HEAD 2)
+  (ANY 2)
+  (OPTIONS 2)
+  (PATCH 2)
+  (rfn 2)
+  (let-routes 1)
+  (context 2))
 
 ;; go right to the REPL buffer when it's finished connecting
 (setq cider-repl-pop-to-buffer-on-connect t)
